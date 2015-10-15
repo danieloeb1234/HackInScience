@@ -1,1 +1,2 @@
-print("42")
+a=42
+print(a)
