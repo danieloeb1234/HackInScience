@@ -1,5 +1,3 @@
 import datetime
-now = datetime.datetime.now()
-d = now.date()
-t = now.time()
-print(datetime.datetime.combine(d, t))
+a = datetime.datetime.now().strftime("Today is %Y-%m-%d and it is %H:%M:%S")
+print(a)
