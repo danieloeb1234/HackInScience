@@ -48,4 +48,3 @@ print(94)
 print(96)
 print(98)
 print(100)
-
