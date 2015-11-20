@@ -5,7 +5,5 @@ for i in range(26):
     for j in range(26):
         if A[i] == A[j]:
             operator.add(A[i], A[j])
-        else: 
+        else:
             print(operator.add(A[i], A[j]))
-
-
