@@ -1,7 +1,7 @@
-def love_meet(bob, alice):
-    return(list(set(bob).intersection(alice)))
+def love_meet(l, m):
+    return(set(l).intersection(set(m)))
 
 
 def affair_meet(bob, alice, silvester):
-    a = list(set(alice).intersection(silvester))
-    return(list(set(a) - set(bob)))
+    a = set(alice).intersection(set(silvester))
+    return(set(a) - set(bob))
